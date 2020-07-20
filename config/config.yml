@@ -1,0 +1,51 @@
+mainConfig:
+  #粒子属性配置
+  agentParams:
+    #粒子个数
+    N: 400
+    #周期边界长度
+    L: 20
+    #通讯半径
+    R: 1
+    #速度
+    V: 1
+    #没步运行时间
+    stepTime: 0.1
+    #噪声强度
+    noise: 0.0
+  #仿真配置
+  simulation:
+    #粒子的初始化状态会被生成许多份
+    #从第startIndex个初始化状态运行
+    startIndex: 0
+    #结束位置
+    endIndex: 10
+    #是否现实粒子运行图
+    plotShow: false #true #false
+    #初始化状态选择，默认0，随机分布
+    initStatus: 0
+    #是否从文件中读取数据，为false就每次重新生成数据
+    useFile: true
+    #生成块个数，用于计算熵值，开方后必须为整数。
+    cellNumber: 100
+    #粒子密度值，不为零则粒子的个数由L*L*density决定
+    density: 1
+    # 粒子分区的边长
+    # 注意这里L/blockLength必须是cell开方后的倍数
+    blockLength: 1
+    #想要使用的算法名
+    algorithmName: syncControlDistance #syncControlDistance #Vicsek
+    #count: 156
+    #syncRate 0.9906542797876614
+    #entropy 3.8418135281100008
+  #文件位置
+  filePath:
+    #初始化状态存储的位置
+    initAgents: ../agentsinit/
+    #结果保存的位置
+    resdata: ./resdatas/
+
+algorithmParams:
+  syncControlDistance:
+    k1: 0
+
