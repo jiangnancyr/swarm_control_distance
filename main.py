@@ -155,7 +155,7 @@ class Main:
         ap = AgentPlot(self.mainConfig)
         syncRate_list = []
         entropy_list = []
-        while count < 20:
+        while count < 2000:
             startTime = datetime.datetime.now()
             # 画图
             # if simulation['plotShow']:
@@ -190,6 +190,54 @@ class Main:
             print('count:', count)
         dataMap['syncRate_list'] = syncRate_list
         dataMap['entropy_list'] = entropy_list
+        return dataMap
+
+    def run_time(self,
+            index
+            ):
+        """
+        开始运行算法
+        """
+        count = 0
+        dataMap = {}
+        #print(self.agents[1])
+        self.initAgents(index)
+        ap = AgentPlot(self.mainConfig)
+        syncRate = 0
+        entropy = 0
+        while syncRate < 0.95 and count < 10000:
+            startTime = datetime.datetime.now()
+            # 画图
+            # if simulation['plotShow']:
+            ap.agentShow(self.agents)
+            # 保存之前的粒子分区表
+            preAgentsList = self.agentsList
+            # 清空表，存放新的粒子分区。
+            self.agentsList = [ \
+                [[] for _ in range(self.sideN)] \
+                for _ in range(self.sideN)]
+            for agentProxy in self.agents:
+                # 返回一个跟新过状态的粒子
+                realAgent = agentProxy.agentRun(preAgentsList)
+                self.putAgentToBlock(realAgent)
+                self.dal.dealAllData(realAgent)
+
+            syncRate = self.dal.getAllAnalysis('syncRate')
+            print('syncRate', syncRate)
+
+            entropy = self.dal.getAllAnalysis('entropy')
+            print('entropy', entropy)
+
+            # localSyncRate = self.dal.getAllAnalysis('localSyncRate')
+            # print('localSyncRate', localSyncRate)
+            # 统计时间
+            endTime = datetime.datetime.now()
+            print((endTime - startTime))
+            count += 1
+            print('count:', count)
+        # dataMap['localSyncRate'] = localSyncRate
+        dataMap['entropy'] = entropy
+        dataMap['count'] = count
         return dataMap
 
 class testClass:
@@ -287,10 +335,33 @@ class testClass:
                 except PermissionError:
                     time.sleep(1)
 
+    def test_time_entropy(self):
+        simulation = self.mainConfig['simulation']
+        fileName = './resData/' + simulation['algorithmName'] + \
+                                 '_' + str(self.agentConfig['N']) + \
+                                 '_' + str(self.agentConfig['L']) + \
+                                 '_' + str(self.agentConfig['R']) + \
+                                 '_' + str(self.agentConfig['V']) + \
+                                 '_time_entropy' + \
+                                 '.xlsx'
+        print(fileName)
+        row = 0
+        for k1 in range(0, 100):
+            dataMap = self.main.run_time(row)
+            while True:
+                try:
+                    we = writeExcel(fileName=fileName)
+                    we.writeCell(row + 1, k1 + 1, dataMap['entropy'], 'entropy')
+                    we.writeCell(row + 1, k1 + 1, dataMap['count'], 'count')
+                    # we.writeCell(row + 1, int((k1 + 100) / 2) + 1, dataMap['localSyncRate'], 'localSyncRate')
+                    we.saveExcel()
+                    break
+                except PermissionError:
+                    time.sleep(1)
 
 if __name__ == '__main__':
     # main = Main('mainConfig')
     # main.run(0)
     test = testClass()
-    test.test_noises()
+    test.test_time_entropy()
 
