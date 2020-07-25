@@ -57,7 +57,8 @@ class AgentInit:
                                 'messages': np.array([self.L, self.L, self.N])})
 
     def getInitFromFile(self,
-                        filePath='xxx/xxx.mat'):
+                        filePath='xxx/xxx.mat',
+                        num=0):
         """
         从文件中获取初始粒子群状态。
         :param filePath: 保存的文件名
@@ -68,7 +69,7 @@ class AgentInit:
             parameters = scio.loadmat(filePath)
         except FileNotFoundError:
             print(filePath + '文件不存在！')
-            self.saveMultiAgentsInit(1)
+            self.saveOneAgentInit(num)
             parameters = scio.loadmat(filePath)
         self.agentsPos = parameters['agentsPos']
         self.agentsVel = parameters['agentsVel']
@@ -83,7 +84,8 @@ class AgentInit:
         return self.agentsPos, self.agentsDir, self.agentsVel
 
     def getAgentInitWithName(self,
-                     fileName='xxx.mat'):
+                            fileName='xxx.mat',
+                             num=0):
         """
         获取集群的初始状态
         :param fileName: 当从文件获取这个就是文件名，如果是每次都是新的则不使用
@@ -92,7 +94,8 @@ class AgentInit:
         if self.mainConfig['simulation']['useFile']:
             #从文件中获取
             return self.getInitFromFile(str(self.mainConfig['filePath']['initAgents']) + \
-                                        fileName)
+                                            fileName,
+                                            num=num)
         else:
             return self.createAgentsInit()
 
@@ -106,10 +109,10 @@ class AgentInit:
         fileName = 'agentsInit_' + str(self.L) + \
                    '_' + str(self.N) + \
                    '_' + str(index) + '.mat'
-        return self.getAgentInitWithName(fileName)
+        return self.getAgentInitWithName(fileName,num=index)
 
     def saveMultiAgentsInit(self,
-                            num):
+                            num=1):
         """
         创建num个初始化状态保存到问价中
         :param num: 个数
@@ -120,6 +123,19 @@ class AgentInit:
                        '_' + str(self.N) + \
                        '_' + str(i) + '.mat'
             self.saveAgentsInit(fileName)
+
+    def saveOneAgentInit(self,
+                        num=0):
+        """
+        创建num个初始化状态保存到问价中
+        :param num: 个数
+        :return:
+        """
+        fileName = 'agentsInit_' + str(self.L) + \
+                   '_' + str(self.N) + \
+                   '_' + str(num) + '.mat'
+        self.saveAgentsInit(fileName)
+
 
     def __str__(self) -> str:
         return '{' + 'L:' + str(self.L) + \
