@@ -1,3 +1,4 @@
+import yaml
 from agent import *
 from agentProxy import *
 from agentsInit import *
@@ -8,6 +9,10 @@ from excel.operateExcel import *
 import time
 from Env.env import agentParams, resMap
 import matplotlib.pyplot as plt
+
+from swarm_control_distance.agentsInit import AgentInit
+from swarm_control_distance.getData.dataAnalysis import DataAnalysis
+
 
 class Main:
 
