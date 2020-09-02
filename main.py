@@ -438,5 +438,5 @@ if __name__ == '__main__':
     # main = Main('mainConfig')
     # main.run(0)
     test = testClass()
-    test.test_step()
+    test.test_noises()
 

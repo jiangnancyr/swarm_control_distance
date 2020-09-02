@@ -6,7 +6,12 @@
       <change beforePath="$PROJECT_DIR$/agentsInit.py" beforeDir="false" afterPath="$PROJECT_DIR$/agentsInit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotShow/figurePlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotShow/figurePlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resData/syncControlDistance_400_20_1_1_-25_noise.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resData/syncControlDistance_400_20_1_1_-25_noise.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resData/syncControlDistance_400_20_1_1_-50_noise.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resData/syncControlDistance_400_20_1_1_-50_noise.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resData/syncControlDistance_400_20_1_1_0_noise.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resData/syncControlDistance_400_20_1_1_0_noise.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/~$实验分析一.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验分析一.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="260" column="24" lean-forward="true" selection-start-line="260" selection-start-column="24" selection-end-line="260" selection-end-column="24" />
+            <state relative-caret-position="13020">
+              <caret line="429" column="84" selection-start-line="429" selection-start-column="72" selection-end-line="429" selection-end-column="84" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -28,11 +33,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agentsInit.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plotShow/figurePlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="136" column="23" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="239" column="22" selection-start-line="239" selection-start-column="22" selection-end-line="239" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="1395">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -106,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/excel/operateExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2480">
-              <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+            <state relative-caret-position="1116">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -152,7 +160,6 @@
         <option value="$PROJECT_DIR$/excel/operateExcel.py" />
         <option value="$PROJECT_DIR$/agent.py" />
         <option value="$PROJECT_DIR$/../[4]-统计不同强度下的熵值/swarmPlot.py" />
-        <option value="$PROJECT_DIR$/plotShow/figurePlot.py" />
         <option value="$PROJECT_DIR$/plotShow/agentsPlot.py" />
         <option value="$PROJECT_DIR$/agentProxy.py" />
         <option value="$PROJECT_DIR$/Env/env.py" />
@@ -161,12 +168,13 @@
         <option value="$PROJECT_DIR$/agentsInit.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/config/config.yml" />
+        <option value="$PROJECT_DIR$/plotShow/figurePlot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -182,11 +190,6 @@
             <path>
               <item name="[5]-固定密度" type="b2602c69:ProjectViewProjectNode" />
               <item name="[5]-固定密度" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="[5]-固定密度" type="b2602c69:ProjectViewProjectNode" />
-              <item name="[5]-固定密度" type="462c0819:PsiDirectoryNode" />
-              <item name="resData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,13 +210,13 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\mydoc\code\Python\速度对其和距离控制\[5]-固定密度\getData" />
-      <recent name="D:\mydoc\code\Python\速度对其和距离控制\[5]-固定密度" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mydoc\code\Python\速度对其和距离控制\[5]-固定密度\plotShow" />
       <recent name="D:\mydoc\code\Python\速度对其和距离控制\[5]-固定密度\excel" />
+      <recent name="D:\mydoc\code\Python\速度对其和距离控制\[5]-固定密度" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mydoc\code\Python\速度对其和距离控制\[5]-固定密度\getData" />
       <recent name="D:\mydoc\code\Python\速度对其和距离控制\[5]-固定密度" />
     </key>
   </component>
@@ -229,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.figurePlot">
     <configuration name="env" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="[5]-固定密度" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -337,9 +340,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.figurePlot" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.env" />
-        <item itemvalue="Python.figurePlot" />
         <item itemvalue="Python.operateExcel" />
         <item itemvalue="Python.main1" />
       </list>
@@ -369,14 +372,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977029" visible="true" weight="0.24108322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977029" visible="true" weight="0.21466315" />
       <window_info id="Structure" order="1" sideWeight="0.5022971" side_tool="true" weight="0.15191546" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2113323" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39509955" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48698315" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,13 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="2432" column="35" lean-forward="true" selection-start-line="2432" selection-start-column="35" selection-end-line="2432" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="4793" column="35" selection-start-line="4793" selection-start-column="35" selection-end-line="4793" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -502,27 +497,10 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1524709056/pygame/color.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="495" selection-start-line="495" selection-end-line="495" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/matplotlib/category.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotShow/figurePlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2821">
-          <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,10 +521,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/getData/dataAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agentsInit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4092">
+          <caret line="136" column="23" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="495" selection-start-line="495" selection-end-line="495" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="513" selection-start-line="513" selection-end-line="513" />
+        <state relative-caret-position="136">
+          <caret line="2813" lean-forward="true" selection-start-line="2813" selection-end-line="2813" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13020">
+          <caret line="429" column="84" selection-start-line="429" selection-start-column="72" selection-end-line="429" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,47 +616,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/excel/operateExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2480">
-          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        <state relative-caret-position="1116">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getData/dataAnalysis.py">
+    <entry file="file://$PROJECT_DIR$/plotShow/figurePlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="210">
+          <caret line="239" column="22" selection-start-line="239" selection-start-column="22" selection-end-line="239" selection-end-column="22" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agentsInit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="136" column="23" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="260" column="24" lean-forward="true" selection-start-line="260" selection-start-column="24" selection-end-line="260" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
         </state>
       </provider>
     </entry>
