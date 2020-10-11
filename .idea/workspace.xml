@@ -19,35 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e829b9-9cae-479f-aad3-36378e69aa4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_5.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_6.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_7.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_8.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_100_9.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_1600_0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_400_0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_10_800_0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_20_400_0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_30_900_0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_30_900_1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_30_900_2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_30_900_3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_30_900_4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_30_900_5.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_30_900_6.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_30_900_7.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../agentsinit/agentsInit_40_1600_0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Nosetests_in_swarm_control_distance.xml" afterDir="false" />
+    <list default="true" id="d5e829b9-9cae-479f-aad3-36378e69aa4c" name="Default Changelist" comment="加上nosetest">
       <change beforePath="$PROJECT_DIR$/.idea/[5]-固定密度.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/[5]-固定密度.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotShow/figurePlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotShow/figurePlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resData/syncControlDistance_1600_40_1_1_k1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resData/syncControlDistance_1600_40_1_1_k1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resData/syncControlDistance_400_20_1_1_k1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resData/syncControlDistance_400_20_1_1_k1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resData/syncControlDistance_900_30_1_1_k1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resData/syncControlDistance_900_30_1_1_k1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +54,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -93,7 +74,7 @@
       <recent name="D:\mydoc\code\Python\速度对其和距离控制\[5]-固定密度" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for test_experiments.test_experiment5">
+  <component name="RunManager" selected="Python tests.Nosetests for test_experiments.test_experiment_102">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="[5]-固定密度" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\a\Desktop\最新实验\swarm_control_distance\test_main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\a\Desktop\最新实验\swarm_control_distance\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for test_experiments.test_experiment1" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_experiments.test_experiment_102" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="[5]-固定密度" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +107,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_experiments.test_experiment1&quot;" />
+      <option name="_new_target" value="&quot;test_experiments.test_experiment_102&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for test_experiments.test_experiment5" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_experiments.test_experiment_p20" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="[5]-固定密度" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,22 +122,52 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_experiments.test_experiment5&quot;" />
+      <option name="_new_target" value="&quot;test_experiments.test_experiment_p20&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for test_z.test_2" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_experiments.test_experiment_p40" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="[5]-固定密度" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\a\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/temp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_z.test_2&quot;" />
+      <option name="_new_target" value="&quot;test_experiments.test_experiment_p40&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for test_experiments.test_experiment_p60" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="[5]-固定密度" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\a\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_experiments.test_experiment_p60&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for test_experiments.test_experiment_p80" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="[5]-固定密度" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\a\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_experiments.test_experiment_p80&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -193,15 +204,19 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python tests.Nosetests in swarm_control_distance" />
-      <item itemvalue="Python tests.Nosetests for test_z.test_2" />
-      <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment1" />
-      <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment5" />
+      <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_p20" />
+      <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_p60" />
+      <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_p40" />
+      <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_p80" />
+      <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_102" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment5" />
-        <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment1" />
-        <item itemvalue="Python tests.Nosetests for test_z.test_2" />
+        <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_102" />
+        <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_p20" />
+        <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_p40" />
+        <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_p60" />
+        <item itemvalue="Python tests.Nosetests for test_experiments.test_experiment_p80" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +232,21 @@
       <option name="presentableId" value="Default" />
       <updated>1593870910185</updated>
     </task>
+    <task id="LOCAL-00001" summary="加上nosetest">
+      <created>1599633143211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599633143211</updated>
+    </task>
+    <task id="LOCAL-00002" summary="加上nosetest">
+      <created>1599633201123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599633201123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -239,12 +269,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="加上nosetest" />
+    <option name="LAST_COMMIT_MESSAGE" value="加上nosetest" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="864" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599629163522">
+    <state x="533" y="79" width="1092" height="889" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601012926839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599041930299" />
-    <state x="414" y="175" width="1092" height="864" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599629163522" />
+    <state x="533" y="79" width="1092" height="889" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601012926839" />
     <state x="815" y="215" key="EnvironmentVariablesDialog" timestamp="1599627841851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -254,59 +288,63 @@
     </state>
     <state x="740" y="325" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599041925271" />
     <state x="740" y="325" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599627653621" />
-    <state width="1899" height="236" key="GridCell.Tab.0.bottom" timestamp="1599632833012">
+    <state width="1899" height="335" key="GridCell.Tab.0.bottom" timestamp="1602300615247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599042602716" />
-    <state width="1899" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599632833012" />
-    <state width="1899" height="236" key="GridCell.Tab.0.center" timestamp="1599632833012">
+    <state width="1899" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602300615247" />
+    <state width="1899" height="335" key="GridCell.Tab.0.center" timestamp="1602300615247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="335" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599042602716" />
-    <state width="1899" height="236" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599632833012" />
-    <state width="1899" height="236" key="GridCell.Tab.0.left" timestamp="1599632833012">
+    <state width="1899" height="335" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602300615247" />
+    <state width="1899" height="335" key="GridCell.Tab.0.left" timestamp="1602300615247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="335" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599042602715" />
-    <state width="1899" height="236" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599632833012" />
-    <state width="1899" height="236" key="GridCell.Tab.0.right" timestamp="1599632833012">
+    <state width="1899" height="335" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602300615247" />
+    <state width="1899" height="335" key="GridCell.Tab.0.right" timestamp="1602300615247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="335" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599042602716" />
-    <state width="1899" height="236" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599632833012" />
-    <state width="1899" height="236" key="GridCell.Tab.1.bottom" timestamp="1599632838663">
+    <state width="1899" height="335" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602300615247" />
+    <state width="1899" height="236" key="GridCell.Tab.1.bottom" timestamp="1599634517030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="236" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599042602711" />
-    <state width="1899" height="236" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599632838663" />
-    <state width="1899" height="236" key="GridCell.Tab.1.center" timestamp="1599632838663">
+    <state width="1899" height="236" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599634517030" />
+    <state width="1899" height="236" key="GridCell.Tab.1.center" timestamp="1599634517030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="236" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599042602711" />
-    <state width="1899" height="236" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599632838663" />
-    <state width="1899" height="236" key="GridCell.Tab.1.left" timestamp="1599632838663">
+    <state width="1899" height="236" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599634517030" />
+    <state width="1899" height="236" key="GridCell.Tab.1.left" timestamp="1599634517030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="236" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599042602711" />
-    <state width="1899" height="236" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599632838663" />
-    <state width="1899" height="236" key="GridCell.Tab.1.right" timestamp="1599632838663">
+    <state width="1899" height="236" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599634517030" />
+    <state width="1899" height="236" key="GridCell.Tab.1.right" timestamp="1599634517030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="236" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599042602711" />
-    <state width="1899" height="236" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599632838663" />
-    <state x="626" y="168" width="1243" height="711" key="SettingsEditor" timestamp="1599629628841">
+    <state width="1899" height="236" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599634517030" />
+    <state x="221" y="169" width="1243" height="711" key="SettingsEditor" timestamp="1601087868612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" width="1243" height="711" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1599041605047" />
-    <state x="626" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599629628841" />
+    <state x="221" y="169" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601087868612" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599633146173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599633146173" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test_experiments.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="11" />
+          <line>166</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

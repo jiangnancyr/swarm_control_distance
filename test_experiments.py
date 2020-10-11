@@ -1,9 +1,9 @@
-from test_main import *
+from main import *
 
 
 
 class experiment1(test_base):
-    def test_k1(self):
+    def test_k1(self, row=0):
         simulation = self.mainConfig['simulation']
         fileName = './resData/' + simulation['algorithmName'] + \
                                  '_' + str(self.agentConfig['N']) + \
@@ -14,8 +14,7 @@ class experiment1(test_base):
                                  '.xlsx'
         print(fileName)
 
-        row = 0
-        for k1 in range(-50, 0, 2):
+        for k1 in range(-20, 102, 2):
             self.algorithmParams['syncControlDistance']['k1'] = k1
             dataMap = self.main.run(row)
             while True:
@@ -23,18 +22,46 @@ class experiment1(test_base):
                     we = writeExcel(fileName=fileName)
                     we.writeCell(row + 1, int((k1 + 100) / 2) + 1, dataMap['syncRate'], 'syncRate')
                     we.writeCell(row + 1, int((k1 + 100) / 2) + 1, dataMap['entropy'], 'entropy')
-                    we.writeCell(row + 1, int((k1 + 100) / 2) + 1, dataMap['localSyncRate'], 'localSyncRate')
+                    # we.writeCell(row + 1, int((k1 + 100) / 2) + 1, dataMap['localSyncRate'], 'localSyncRate')
                     we.saveExcel()
                     break
                 except PermissionError:
                     time.sleep(1)
 
-def test_experiment1():
+def test_experiment_p80():
     experiment = experiment1()
-    experiment.test_k1()
+    row = 1
+    while row < 10:
+        experiment.test_k1(row=row)
+        row += 1
 
+def test_experiment_p60():
+    experiment = experiment1()
+    row = 1
+    while row < 10:
+        experiment.test_k1(row=row)
+        row += 1
 
+def test_experiment_p40():
+    experiment = experiment1()
+    row = 1
+    while row < 10:
+        experiment.test_k1(row=row)
+        row += 1
 
+def test_experiment_p20():
+    experiment = experiment1()
+    row = 1
+    while row < 10:
+        experiment.test_k1(row=row)
+        row += 1
+
+def test_experiment_102():
+    experiment = experiment1()
+    row = 1
+    while row < 10:
+        experiment.test_k1(row=row)
+        row += 1
 
 class experiment2(test_base):
 

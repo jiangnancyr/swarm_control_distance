@@ -182,7 +182,7 @@ class FigurePlot(object):
         plt.plot(x, y, c=c, label=label)
         plt.legend()
 
-def figure_entropy():
+def test_figure_entropy():
     fp = FigurePlot('', 111)
     fp.k_entropy(400, 20, 1, 1, 'g', '>', 'N=400,L=20', 'entropy')
     # fp = FigurePlot('', 111)
@@ -191,7 +191,7 @@ def figure_entropy():
     fp.k_entropy(1600, 40, 1, 1, 'r', '^', 'N=1600,L=40', 'entropy')
     plt.show()
 
-def figure_syncRate():
+def test_figure_syncRate():
     fp = FigurePlot('', 111)
     fp.k_entropy(400, 20, 1, 1, 'g', '>', 'N=400,L=20', 'syncRate')
     # fp = FigurePlot('', 111)
@@ -236,11 +236,6 @@ def figure_entropy_step():
     fp.sync_speed_step(900, 30, 1, 1, 25, 'b', '>', 'k=25', name='entropy_list')
     fp.sync_speed_step(900, 30, 1, 1, 30, 'm', '>', 'k=30', name='entropy_list')
     plt.show()
-if __name__=='__main__':
-    # figure_noise_plot_syncRate()
-    # figure_noise_plot_entropy()
-    # figure_sync_speed_step()
-    figure_entropy_step()
 
 
 
